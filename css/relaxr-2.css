@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul {
+	list-style: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Emily's CSS */
+
+body {
+	background-color: #f0efef;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #606161;
+}
+
+h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	max-width: 300px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: #033048;
+	padding: 20px 0 20px 0;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	color: #033048;
+}
+
+header {
+	background-color: #033048;
+	overflow: hidden;
+}
+
+.holding {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+header ul {
+	float: right;
+	font-size: 24px;
+	padding-right: 40px;
+}
+
+header ul li {
+	display: inline-block;
+	padding:0 0 10px 10px;
+}
+
+header a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #f9e42e; 
+}
+
+header a:link {
+	color: #f9e42e;
+}
+
+header a:visited {
+	color: #f9e42e;
+}
+
+header a:hover {
+	color: white;
+}
+
+.main {
+	clear: both;
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #f0efef;
+	overflow: auto;
+}
+
+.main-blog {
+	float:left;
+	width: 700px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+article {
+	border-bottom: solid 2px #606161;
+}
+
+article p:first-of-type:first-letter {
+	float: left;
+	font-size: 75px;
+	font-weight: 600;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 6px;
+
+}
+
+article img {
+	padding: 20px 0 20px 0;
+}
+
+.read-more {
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+	color: #033048;
+	padding: 40px 0 20px 0;
+}
+
+.read-more a:visited {
+	color: #033048;
+}
+
+.read-more a:link {
+	color: #033048;
+}
+
+.read-more a:hover {
+	color: #f9e42e;
+}
+
+.side-blog {
+	width: 240px;
+	float: right;
+}
+
+.side-blog ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #606161;
+}
+
+.side-blog p {
+	font-size: 22px;
+}
+
+.side-bar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.side-bar a:link {
+	color: #606161;
+}
+
+.side-bar a:visited {
+	color: #606161;
+}
+
+.side-bar a:hover {
+	color: #f9e42e;
+}
+
+
+.About-link a {
+	font-weight: 600;
+}
+
+.About-link a:link {
+	color: #033048;
+}
+
+.About-link a:visited {
+	color: #033048;
+}
+
+.About-link a:hover {
+	color: #f9e42e;
+}
+
+.sign-up {
+	clear:both;
+	height: 90px;
+	margin: 30px auto 0;
+	background-color: #f9e42e;
+}
+
+.button {
+  background-color: #033048;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 160px;
+  margin:auto;
+  position:relative;
+  top:20px;
+}
+
+footer {
+	background-color: #121212;
+}
+
+footer p {
+	font-weight: 800;
+  	color: #f9e42e;
+  	font-size: 40px;
+  	margin-bottom: 30px;
+  	text-align:center;
+  	padding-top: 40px;
+}
+
+.social {
+	max-width: 90px;
+	margin: 0 auto;
+}
+.social ul li {
+	display: inline-block;
+}
+
+.social img {
+	max-height: 30px;
+	padding-left:10px;
+}
+
+
+.copyright {
+	font-family: 'Open Sans', sans-serif;
+  	font-weight: 600;
+  	font-size: 9px;
+  	color: white;
+  	text-align: center;
+  	padding-bottom: 30px;
+
+}
+
+
+
+
+
